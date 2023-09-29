@@ -122,6 +122,7 @@ func mystrom2mqtt() error {
 		"midna":      "myStrom-Switch-E33414",
 		"pacna":      "myStrom-Switch-A4849C",
 		"portabel":   "myStrom-Switch-A48498",
+		"solar":      "myStrom-Switch-943DAC",
 	} {
 		name, hostname := name, hostname // copy
 		go func() {
