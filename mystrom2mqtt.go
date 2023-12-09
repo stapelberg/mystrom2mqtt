@@ -121,8 +121,9 @@ func mystrom2mqtt() error {
 		"monitor":    "myStrom-Switch-A46FD0",
 		"midna":      "myStrom-Switch-E33414",
 		"pacna":      "myStrom-Switch-A4849C",
-		"portabel":   "myStrom-Switch-A48498",
-		"solar":      "myStrom-Switch-943DAC",
+		//"portabel":      "myStrom-Switch-A48498",
+		"solar":         "myStrom-Switch-943DAC",
+		"basislagercam": "10.11.0.109",
 	} {
 		name, hostname := name, hostname // copy
 		go func() {
