@@ -115,13 +115,13 @@ func mystrom2mqtt() error {
 	}
 
 	for name, hostname := range map[string]string{
-		"living":     "myStrom-Switch-72AB38",
-		"automation": "myStrom-Switch-A48E4C",
-		"lea":        "myStrom-Switch-72B600",
-		"monitor":    "myStrom-Switch-A46FD0",
-		"midna":      "myStrom-Switch-E33414",
-		"pacna":      "myStrom-Switch-A4849C",
-		//"portabel":      "myStrom-Switch-A48498",
+		"living":        "myStrom-Switch-72AB38",
+		"automation":    "myStrom-Switch-A48E4C",
+		"lea":           "myStrom-Switch-72B600",
+		"monitor":       "myStrom-Switch-A46FD0",
+		"midna":         "myStrom-Switch-E33414",
+		"pacna":         "myStrom-Switch-A4849C",
+		"portabel":      "myStrom-Switch-7D6FDC",
 		"solar":         "myStrom-Switch-943DAC",
 		"basislagercam": "10.11.0.109",
 	} {
